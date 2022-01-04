@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.dashboard {
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.sidebar {
+  padding-top: 20px;
+  flex: 0.2;
+  height: 100vh;
+  background-color: #dfe4ea;
+}
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8%;
+  color: slateblue;
+}
+.sidebar-header h1 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.sidebar-list {
+  margin-top: 5%;
+  background-color: #dfe4ea;
+}
+.sidebar-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sidebar-list ul li {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sidebar-list ul li span {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+.sidebar-list ul li span:nth-child(1) {
+  color: blue;
+}
+.sidebar-list ul li span:nth-child(2) {
+  color: orange;
+}
+.sidebar-list ul li:hover {
+  background: #bdc3c7;
+}
+/* -----------------------------------------------------------TODO Sidebar ends here------------------------------------------ */
+.maindash {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+.maindash-header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: slateblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* ---------------------------------------------------TODO Maindash Header ends here ----------------------------------------- */
+.maindash-center {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 365px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.mdc-one {
+  flex: 0.28;
+  height: max-content;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #dfe4ea;
+}
+.mdc-two {
+  flex: 0.4;
+  height: 285px;
+  /* height: max-content; */
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #fff;
+  /* display: flex; */
+  justify-content: center;
+  color: #535c68;
+}
+.mdc-three {
+  flex: 0.28;
+  height: 285px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #fff;
+}
+/* -----------------------------------------------------------maindash-bottom------------------------------------------------ */
+.maindash-bottom {
+  margin-top: -35px;
+  display: flex;
+  height: 280px;
+  justify-content: space-around;
+}
+.mdb-one {
+  flex: 0.52;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #fff;
+  z-index: 2;
+}
+.mdb-two {
+  flex: 0.45;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* -------------------------------------------maindash-bottom ends here---------------------------------------------------- */

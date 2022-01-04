@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.Home {
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+.Home-Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-top: 2%;
+}
+.Home-left {
+  /* background: pink; */
+  flex: 0.6;
+}
+.Home-left h1 {
+  /* text-transform: uppercase; */
+  margin-top: 10%;
+  font-size: 5vw;
+  text-align: center;
+  color: rgb(115 115 115);
+}
+.Home-left p {
+  font-size: 1.5vw;
+  text-align: center;
+  color: #b9b5f1;
+  letter-spacing: 1px;
+}
+
+.Home-right {
+  flex: 0.4;
+  /* background: violet; */
+  margin: auto;
+}
+
+.home-rightimg img {
+  width: 30vw;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+} ;

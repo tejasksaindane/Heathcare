@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.Nutrition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83%;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding-bottom: 100px;
+  padding-top: 70px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.Nutri-Top h1 {
+  padding: 0 20px;
+  font-family: "Jost", sans-serif;
+  color: #737373;
+  font-size: 3vw;
+  margin-bottom: 2%;
+}
+.Nutri-Top input {
+  width: 50vw;
+  height: 40px;
+  background: lightgray;
+  border-radius: 10px;
+  border: lightgray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-left: 10%;
+  /* padding: 50px; */
+}
+.Nutri-Top button {
+  background-color: #5352ed;
+  color: white;
+  font-size: 15px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.Nutri-Top button:hover {
+  background: white;
+  color: #5352ed;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.Nutri-Top span {
+  padding-left: 10px;
+  font-weight: bold;
+}
+/* ------------------------------------------------------------ /TODO Nutri-Bottom /---------------------------------------------------------------- */
+.Nutri-bottom {
+  display: flex;
+  flex-direction: row;
+}
+.Nutri-bottom img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.Nutri-bottom p {
+  color: black;
+  margin-left: 15px;
+}
+.Nutri-bottom span {
+  flex-direction: column;
+  margin-left: 15px;
+}
+.Nutri-bottom label {
+  font-size: 15px;
+  font-weight: 400;
+}
+.Nutri-bottom h2 {
+  color: #636e72;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.Nutri-last {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  /* background-color: peachpuff; */
+  justify-content: space-around;
+}
+.Nutri-last-one {
+  flex: 0.45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Nutri-last-one img {
+  margin: auto;
+}
+.Nutri-last-one span {
+  margin: auto;
+}
+
+.Nutri-last-two {
+  flex: 0.45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+}
+.Nutri-last-two img {
+  margin: auto;
+}
+.Nutri-last-two span {
+  margin: auto;
+}
+/* .Nutri-btn {
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #5352ed;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10%;
+} */
+/* -------------------------------ANCHOR media queries ----------------------------------- */
+@media screen and (min-device-width: 320px) and (max-device-width: 420px) {
+  .Nutri-bottom {
+    flex-direction: column;
+  }
+  .Nutri-bottom img {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 780px) {
+  .Nutri-last {
+    flex-direction: column;
+  }
+  .Nutri-last-one {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .Nutri-last-two {
+    margin-top: 20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 414px) {
+  .Nutri-last {
+    /* flex-direction: column; */
+  }
+  .Nutri-last-one {
+    margin: 10px 20px;
+    padding: 10px;
+  }
+  .Nutri-last-two {
+    margin: 10px 20px;
+    padding: 10px;
+  }
+} ;

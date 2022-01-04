@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.Firstpage {
+  font-family: "Jost", sans-serif;
+  margin-bottom: 8%;
+}
+.firstpage-header {
+  margin-top: 10%;
+}
+.firstpage-header h1 {
+  letter-spacing: 1px;
+  font-size: 4vw;
+  font-family: "Jost", sans-serif;
+  /* color: #737373; */
+  color: darkgrey;
+  margin-top: 4%;
+}
+.firstpage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+}
+/* /-------------------------------------------------------- */
+.fpone {
+  /* background-color: yellow; */
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.fpone-top {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.fpone-top h1 {
+  color: #5352ed;
+  /* color: #2196f3; */
+}
+.fp-icons {
+  font-size: 40px;
+}
+.fpone-bottom {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fpone-bottom p {
+  font-size: 18px;
+  text-align: left;
+}
+.fpone-bottom button {
+  margin-top: 3%;
+  background-color: #4e67eb;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border: none;
+}
+.fpone-bottom button:hover {
+  background-color: white;
+  color: #4e67eb;
+}
+/* ------------------------------------------------------ */
