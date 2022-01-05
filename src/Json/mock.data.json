@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Pankaj Thapa",
+    "city": "Jalgaon",
+    "Phoneno": "8080808080",
+    "age": "7",
+    "gender": "male",
+    "fees": "150",
+    "paid": "paid"
+  },
+  {
+    "id": 2,
+    "name": "Dharmesh",
+    "city": "Mumbai",
+    "Phoneno": "8080808080",
+    "age": "45",
+    "gender": "male",
+    "fees": "150",
+    "paid": "not paid"
+  },
+  {
+    "id": 4,
+    "name": "Raghav Juyal",
+    "city": "Pune",
+    "Phoneno": "8080808080",
+    "age": "75",
+    "gender": "male",
+    "fees": "150",
+    "paid": "not paid"
+  },
+  {
+    "id": 5,
+    "name": "Prabhu deva",
+    "city": "Nagpur",
+    "Phoneno": "8080808080",
+    "age": "22",
+    "gender": "male",
+    "fees": "150",
+    "paid": "not paid"
+  },
+  {
+    "id": 6,
+    "name": "Remo Dsouza",
+    "city": "Jalgaon",
+    "Phoneno": "8080808080",
+    "age": "45",
+    "gender": "male",
+    "fees": "150",
+    "paid": "not paid"
+  },
+  {
+    "id": 7,
+    "name": "Geeta Kapoor",
+    "city": "Jalgaon",
+    "Phoneno": "8080808080",
+    "age": "45",
+    "gender": "male",
+    "fees": "150",
+    "paid": "not paid"
+  },
+  {
+    "id": 8,
+    "name": "Chaitanya Shinde",
+    "city": "Jalgaon",
+    "Phoneno": "820890257",
+    "age": "22",
+    "gender": "male",
+    "fees": "150",
+    "paid": " paid"
+  },
+  {
+    "id": 9,
+    "name": "Yash Kapoor",
+    "city": "Mumbai",
+    "Phoneno": "1800969523",
+    "age": "22",
+    "gender": "male",
+    "fees": "150",
+    "paid": " paid"
+  }
+]

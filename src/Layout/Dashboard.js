@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Dashboard.css";
 import Calendar from "../Components/Calendar";
 import Charts from "../Components/Chart";
 import { FaHome, FaStethoscope, FaCcStripe } from "react-icons/fa";
 import { FcVideoCall, FcPhone, FcSettings, FcAbout } from "react-icons/fc";
 import PieChart from "../Components/PieChart";
+import Table from "../Components/Ptable";
+import Modal from "../Components/Modal";
 
 const Dashboard = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <>
       <div className="dashboard">
@@ -101,8 +104,21 @@ const Dashboard = () => {
           </div>
           {/* --------------------------Maindash ends here--------------- */}
           <div className="maindash-bottom">
-            <div className="mdb-one"></div>
-            <div className="mdb-two">Hello</div>
+            <div className="mdb-one">
+              <Table />
+            </div>
+            <div className="mdb-two">
+              <h2>Add Patients Detail here</h2>
+              <button
+                className="openModalBtn"
+                onClick={() => {
+                  setOpenModal(true);
+                }}
+              >
+                open
+              </button>
+              {openModal && <Modal closeModal={setOpenModal} />}
+            </div>
           </div>
         </div>
       </div>

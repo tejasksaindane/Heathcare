@@ -114,18 +114,43 @@
   justify-content: space-around;
 }
 .mdb-one {
-  flex: 0.52;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  flex: 0.5;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   background-color: #fff;
   z-index: 2;
+  padding: auto;
+}
+.mdb-one::-webkit-scrollbar {
+  display: none;
 }
 .mdb-two {
-  flex: 0.45;
+  flex: 0.47;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: gray;
+  text-align: center;
+  padding: 14px;
+  box-sizing: border-box;
+  /* overflow: scroll; */
+}
+.openModalBtn {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #6a5acd;
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.openModalBtn:hover {
+  color: #6a5acd;
+  background-color: white;
+  border: 1px solid #6a5acd;
 }
 /* -------------------------------------------maindash-bottom ends here---------------------------------------------------- */

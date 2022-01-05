@@ -1,0 +1,46 @@
+.Tab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+.Tab-container h4 {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  color: gray;
+}
+​ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 5px;
+  font-size: 15px;
+}
+
+th {
+  background-color: #dee3e9;
+}
+
+td {
+  background-color: #ecf0f1;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}

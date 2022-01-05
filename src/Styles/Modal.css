@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+.title label {
+  padding-left: 20px;
+}
+.title input {
+  border: none;
+  border-bottom: 2px solid pink;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 20px;
+  width: 170px;
+}
+.modal-body {
+  display: flex;
+  justify-content: center;
+}
+.modal-body input {
+  border: none;
+  border-bottom: 2px solid pink;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 20px;
+  width: 170px;
+}
+.modal-body label {
+  padding-left: 20px;
+}
+.footer {
+  margin-top: 20px;
+}
+.footer button {
+  margin-left: 20px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: crimson;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+}

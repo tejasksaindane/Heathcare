@@ -12,21 +12,21 @@ const pdata = [
     student: 15,
     fees: 12,
   },
-  //   {
-  //     name: "React",
-  //     student: 10,
-  //     fees: 5,
-  //   },
-  //   {
-  //     name: "C++",
-  //     student: 17,
-  //     fees: 12,
-  //   },
-  //   {
-  //     name: "Java",
-  //     student: 11,
-  //     fees: 6,
-  //   },
+  {
+    name: "React",
+    student: 10,
+    fees: 5,
+  },
+  {
+    name: "C++",
+    student: 17,
+    fees: 12,
+  },
+  {
+    name: "Java",
+    student: 11,
+    fees: 6,
+  },
 ];
 const sdata = [
   {
@@ -34,16 +34,16 @@ const sdata = [
     student: 13,
     fees: 10,
   },
-  //   {
-  //     name: "trains",
-  //     student: 15,
-  //     fees: 12,
-  //   },
-  //   {
-  //     name: "Airplanes",
-  //     student: 10,
-  //     fees: 5,
-  //   },
+  {
+    name: "trains",
+    student: 15,
+    fees: 12,
+  },
+  {
+    name: "Airplanes",
+    student: 10,
+    fees: 5,
+  },
 ];
 const PieCharts = () => {
   return (
@@ -61,7 +61,7 @@ const PieCharts = () => {
             nameKey="name"
             cx="50%"
             cy="20%"
-            outerRadius={80}
+            outerRadius={75}
             fill="#f8a5c2"
           />
           <Pie
@@ -70,7 +70,7 @@ const PieCharts = () => {
             nameKey="name"
             cx="50%"
             cy="20%"
-            outerRadius={50}
+            outerRadius={45}
             fill="#fad390"
           />
 
