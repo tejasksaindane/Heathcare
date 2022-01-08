@@ -37,5 +37,9 @@
 .home-rightimg img {
   width: 30vw;
 }
-@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  .Home-Container {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+  }
 } ;

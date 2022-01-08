@@ -7,6 +7,7 @@ import { FcVideoCall, FcPhone, FcSettings, FcAbout } from "react-icons/fc";
 import PieChart from "../Components/PieChart";
 import Table from "../Components/Ptable";
 import Modal from "../Components/Modal";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -32,12 +33,14 @@ const Dashboard = () => {
           {/* -------------------------------TODO Sidebar list starts here--------------------------------------- */}
           <div className="sidebar-list">
             <ul>
-              <li>
-                <span>
-                  <FaHome />
-                </span>
-                Home
-              </li>
+              <Link to="/">
+                <li>
+                  <span>
+                    <FaHome />
+                  </span>
+                  Home
+                </li>
+              </Link>
 
               <li>
                 <span>

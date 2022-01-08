@@ -117,17 +117,7 @@
 .Nutri-last-two span {
   margin: auto;
 }
-/* .Nutri-btn {
-  padding: 10px 30px;
-  letter-spacing: 1px;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  background-color: #5352ed;
-  border: none;
-  border-radius: 6px;
-  margin-top: 10%;
-} */
+
 /* -------------------------------ANCHOR media queries ----------------------------------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 420px) {
   .Nutri-bottom {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../Styles/Navbar.css";
 import { SiAircanada } from "react-icons/si";
 import { FaBars, FaInstagramSquare, FaFacebookF } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -23,10 +24,18 @@ const Navbar = () => {
           // className
         >
           <ul>
-            <li>Self Test</li>
-            <li>Appointment</li>
-            <li>Booking</li>
-            <li>Login</li>
+            <Link to="/">
+              <li>Self Test</li>
+            </Link>
+            <Link to="/DashBoard">
+              <li>Appointment</li>
+            </Link>
+            <Link to="/Signin">
+              <li>SignIn</li>
+            </Link>
+            <Link to="/Login">
+              <li>SignUp</li>
+            </Link>
           </ul>
         </div>
         {/* TODO 3rd Social media Links */}

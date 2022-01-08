@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  font-family: "Jost", sans-serif;
+}
+.login-left {
+  flex: 0.4;
+}
+.login-right {
+  flex: 0.6;
+  justify-content: center;
+  align-items: center;
+}
+.login-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-header h1 {
+  text-align: center;
+  color: gray;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form label {
+  font-size: 20px;
+  color: gray;
+  padding-top: 20px;
+}
+.login-form input {
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  outline: none;
+  font-size: 20px;
+  color: #636e72;
+}
+.login-form button {
+  width: 50%;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #60a3bc;
+}
+.login-form button:hover {
+  background-color: #60a3bc;
+  color: white;
+}
+/* ---------------------TODO Media queries here---------------- */
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .login {
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    height: max-content;
+  }
+  .login-right {
+  }
+  .login-left {
+    margin: auto;
+  }
+  .login-left img {
+    width: 200px;
+    height: auto;
+  }
+  .login-form button {
+    margin: 90px;
+  }
+}

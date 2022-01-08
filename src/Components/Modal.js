@@ -1,14 +1,20 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
 import "../Styles/Modal.css";
 
 const Modal = ({ closeModal }) => {
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm();
+  }
   return (
     <div className="modalBackground">
       <div className="modalContainer">
         {/* ------------------------------------------------ */}
         <div className="title">
           <label className="">FullName: </label>
-          <input type="text" />
+          <input type="text" name="name" />
           <label htmlFor="" className="">
             Gender : {"  "}
           </label>
@@ -22,7 +28,7 @@ const Modal = ({ closeModal }) => {
         {/* ------------------------------------------------- */}
         <div className="modal-body">
           <label>Age : </label>
-          <input type="number" />
+          <input type="number" name="age" />
 
           <br />
           <div className="Modal-contact"></div>
@@ -43,6 +49,9 @@ const Modal = ({ closeModal }) => {
             <option value="">Nashik</option>
             <option value="">Nagpur</option>
           </select>
+          <button type="submit" onSubmit={sendEmail}>
+            Submit
+          </button>
           <button onClick={() => closeModal(false)}>Close</button>
           {/* <button>Continue</button> */}
         </div>
