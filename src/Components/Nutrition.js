@@ -44,6 +44,7 @@ const Nutrition = () => {
             alt=""
             width="150px"
             height="150px"
+            loading="lazy"
           />
           <span>
             <h2>{food?.results[0]?.title}</h2>
@@ -87,7 +88,13 @@ const Nutrition = () => {
         {/* -----------------------------------------TODO NUtri Last--------------------------------------------------- */}
         <div className="Nutri-last">
           <div className="Nutri-last-one">
-            <img src={Eggs} alt="" width="120px" height="120px" />
+            <img
+              src={Eggs}
+              alt=""
+              width="120px"
+              height="120px"
+              loading="lazy"
+            />
             <span>
               <h2>Eggs</h2>
               <label>Protein: </label>
@@ -128,14 +135,12 @@ const Nutrition = () => {
             </span>
           </div>
         </div>
-        {/* <center>
-          <button className="Nutri-btn">Click</button>
-        </center> */}
       </div>
     </>
   );
 };
 export default Nutrition;
 
+//TODO ------------------------------------------------------------------------------------------------------------------------------------------
 //TODO https://api.spoonacular.com/recipes/complexSearch?query=${Value}&maxFat=25&maxProtein=100&number=2&apiKey=6773ed22e4ad49dda943b6d879dbc5b8`
-// TODO
+//TODO ------------------------------------------------------------------------------------------------------------------------------------------

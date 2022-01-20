@@ -1,13 +1,13 @@
 import React from "react";
 import "../Styles/Login.css";
-import doc from "../assets/Doctor-removebg.png";
+import doc from "../assets/Doctortwo.png";
 import { FaRegEnvelope } from "react-icons/fa";
 
 const Signin = () => {
   return (
     <div className="login">
       <div className="login-left">
-        <img src={doc} alt="" />
+        <img src={doc} alt="a picture" loading="lazy" />
       </div>
       <div className="login-right">
         <div className="login-header">

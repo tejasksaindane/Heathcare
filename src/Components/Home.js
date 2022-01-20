@@ -5,6 +5,7 @@ import Nutrition from "./Nutrition";
 import Slider from "./Slider";
 import Doctor from "../assets/Doctortwo.png";
 import Navbar from "../Components/Navbar";
+import Covid from "../Components/Covid";
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
           </div>
           <div className="Home-right">
             <div className="home-rightimg">
-              <img src={Doctor} alt="" />
+              <img src={Doctor} alt="a doctor" loading="lazy" />
             </div>
           </div>
         </div>
@@ -29,6 +30,7 @@ const Home = () => {
       <FirstPage />
       <Nutrition />
       <Slider />
+      <Covid />
     </>
   );
 };

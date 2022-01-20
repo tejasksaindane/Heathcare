@@ -46,7 +46,7 @@
 }
 .slide:nth-child(1),
 .slide:nth-child(10) {
-  background: url("../assets/one.jpg");
+  background-image: url("../assets/one.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@
 }
 .slide:nth-child(2),
 .slide:nth-child(11) {
-  background: url("../assets/two.jpg");
+  background-image: url("../assets/two.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@
 }
 .slide:nth-child(3),
 .slide:nth-child(12) {
-  background: url("../assets/three.jpg");
+  background-image: url("../assets/three.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@
 }
 .slide:nth-child(4),
 .slide:nth-child(13) {
-  background: url("../assets/four.jpg");
+  background-image: url("../assets/four.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,14 +78,14 @@
 }
 .slide:nth-child(5),
 .slide:nth-child(14) {
-  background: url("../assets/five.jpg");
+  background-image: url("../assets/five.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: border-box;
 }
 .slide:nth-child(6),
 .slide:nth-child(15) {
-  background: url("../assets/six.jpg");
+  background-image: url("../assets/six.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@
 }
 .slide:nth-child(7),
 .slide:nth-child(16) {
-  background: url("../assets/diabetes.jpg");
+  background-image: url("../assets/diabetes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@
 }
 .slide:nth-child(8),
 .slide:nth-child(17) {
-  background: url("../assets/diabetic-one.jpeg");
+  background-image: url("../assets/diabetic-one.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@
 }
 .slide:nth-child(9),
 .slide:nth-child(18) {
-  background: url("../assets/diabetic-two.jpeg");
+  background-image: url("../assets/diabetic-two.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,7 +127,7 @@
 .slide-title {
   color: grey;
   margin-top: 50px;
-  font-size: 3.vw;
+  font-size: 3vw;
 }
 @keyframes scroll {
   0% {

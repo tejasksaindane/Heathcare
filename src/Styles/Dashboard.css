@@ -38,6 +38,8 @@
   padding: 20px;
   font-size: 20px;
   font-weight: 400;
+  text-decoration: none;
+  list-style: none;
 }
 .sidebar-list ul li span {
   padding-right: 30px;

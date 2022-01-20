@@ -20,7 +20,7 @@
   margin-bottom: 2%;
 }
 .Nutri-Top input {
-  width: 50vw;
+  width: 45vw;
   height: 40px;
   background: lightgray;
   border-radius: 10px;
@@ -28,7 +28,9 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   margin-left: 10%;
-  /* padding: 50px; */
+  padding-left: 50px;
+  font-size: 15px;
+  outline: none;
 }
 .Nutri-Top button {
   background-color: #5352ed;

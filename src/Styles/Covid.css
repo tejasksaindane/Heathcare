@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+.Covid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10% 7%;
+  height: max-content;
+  padding: 15px;
+}
+.Covid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  height: max-content;
+  padding: 15px;
+}
+.covidOne {
+  width: 405px;
+  height: 200px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+  flex-direction: column;
+  border-radius: 8px;
+  font-family: "Jost", sans-serif;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.covidOne span {
+  color: darkmagenta;
+  font-size: 30px;
+}
+.covidOne h3 {
+  color: gray;
+  margin-bottom: -20px;
+  letter-spacing: 1px;
+}
+.covidOne h1 {
+  font-size: 38px;
+  margin-top: -25px;
+  text-shadow: 2px 2px 8px #b2bec3;
+  color: #2f3640;
+}
+.covid-title {
+  text-shadow: 2px 2px 8px #b2bec3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 22px;
+  color: #737373;
+}

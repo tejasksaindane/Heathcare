@@ -71,6 +71,7 @@ li {
 }
 .menu-link ul li {
   font-size: 1.8rem;
+  text-decoration: none;
 }
 .menu-link ul li a {
   text-transform: capitalize;

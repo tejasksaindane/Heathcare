@@ -1,11 +1,13 @@
 import React from "react";
 import "../Styles/Login.css";
-import doc from "../assets/Doctor-removebg.png";
-
+// import doc from "../assets/Doctor-removebg.png";
+import doc from "../assets/Doctortwo.png";
 const Login = () => {
   return (
     <div className="login">
-      <div className="login-left">{/* <img src={doc} alt="" /> */}</div>
+      <div className="login-left">
+        <img src={doc} alt="" loading="lazy" />
+      </div>
       <div className="login-right">
         <div className="login-header">
           <h1>Register Your Account</h1>

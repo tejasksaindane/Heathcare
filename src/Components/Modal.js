@@ -15,9 +15,7 @@ const Modal = ({ closeModal }) => {
         <div className="title">
           <label className="">FullName: </label>
           <input type="text" name="name" />
-          <label htmlFor="" className="">
-            Gender : {"  "}
-          </label>
+          <label htmlFor="">Gender : {"  "}</label>
           <select name="" id="">
             Gender
             <option value="">Male</option>
@@ -53,7 +51,6 @@ const Modal = ({ closeModal }) => {
             Submit
           </button>
           <button onClick={() => closeModal(false)}>Close</button>
-          {/* <button>Continue</button> */}
         </div>
       </div>
     </div>
@@ -61,3 +58,5 @@ const Modal = ({ closeModal }) => {
 };
 
 export default Modal;
+// https://covid19-api.com/country?name=India&format=json
+// curl -X GET "https://covid19-api.com/country?name=India&format=json" -H "accept: application/json"
