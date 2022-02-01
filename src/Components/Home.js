@@ -6,6 +6,7 @@ import Slider from "./Slider";
 import Doctor from "../assets/Doctortwo.png";
 import Navbar from "../Components/Navbar";
 import Covid from "../Components/Covid";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       <Nutrition />
       <Slider />
       <Covid />
+      <Footer />
     </>
   );
 };

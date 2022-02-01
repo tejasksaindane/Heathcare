@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Signin from "./Components/Signin";
 
 const App = () => {
+  console.log(process.env.REACT_APP_BACKEND);
+
   return (
     <div>
       <Router>

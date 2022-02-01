@@ -5,7 +5,7 @@ import { useEffect } from "react/cjs/react.development";
 
 const options = {
   method: "GET",
-  url: "https://covid-19-data.p.rapidapi.com/country/code",
+  // url: "https://covid-19-data.p.rapidapi.com/country/code",
   params: { code: "in" },
   headers: {
     "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
