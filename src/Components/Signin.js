@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "../Styles/Login.css";
 import doc from "../assets/Doctortwo.png";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signin = () => {
-  // const history = useHistory();
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -25,7 +25,7 @@ const Signin = () => {
       window.alert("invalid credentials");
     } else {
       window.alert("Login Successful");
-      // history.pushState("/");
+      navigate("/");
     }
   };
 
@@ -45,8 +45,6 @@ const Signin = () => {
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            autoComplete="off"
-            placeholder="Your Email"
           />
           <label htmlFor="">Password</label>
           <input
@@ -54,8 +52,6 @@ const Signin = () => {
             name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            autoComplete="off"
-            placeholder="Your Password"
             className="logi-pass"
           />
           <button type="submit" name="signin" onClick={loginUser}>

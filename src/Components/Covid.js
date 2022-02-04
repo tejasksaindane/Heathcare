@@ -32,6 +32,7 @@ const Covid = () => {
         <div className="Covid">
           <div className="covid-title">
             <h1>💉covid-19 corona virus tracker💉</h1>
+            <p>दो गज की दूरी, मास्क है जरूरी</p>
           </div>
           <div className="Covid-container">
             <div className="covidOne">

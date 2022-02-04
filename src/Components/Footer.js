@@ -34,7 +34,7 @@ const Footer = () => {
             <h3>
               <label htmlFor="email">Email : </label>
               <address>healthcare.ssct@2022.gmail.com</address>
-              <label>Toll Free No : </label>
+              <label>Toll Free No ( सम्पर्क करें ): </label>
               <address>1800 - 257 - 257</address>
             </h3>
           </div>

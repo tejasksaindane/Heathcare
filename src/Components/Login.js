@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "../Styles/Login.css";
 import doc from "../assets/Doctortwo.png";
 import { signup } from "../auth/index";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
-  // const history = useHistory();
+  const navigate = useNavigate();
   const [user, setUser] = useState({
     name: "",
     email: " ",
@@ -46,7 +46,7 @@ const Login = () => {
     } else {
       window.alert(" registration successfull");
       console.log(" registration successfull");
-      // history.push("/signin");
+      navigate("/signin");
     }
   };
   // const handleChange = (event) => {
