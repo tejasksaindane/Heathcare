@@ -8,8 +8,6 @@
   margin-right: 250px;
   margin-left: 250px;
   border-radius: 10px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
   font-family: "Jost", sans-serif;
   box-shadow: 0px 0.3px 7.7px rgba(0, 0, 0, 0.084),
     0px 0.8px 19.4px rgba(0, 0, 0, 0.12), 0px 1.6px 39.5px rgba(0, 0, 0, 0.15),
@@ -22,6 +20,12 @@
   flex: 0.6;
   justify-content: center;
   align-items: center;
+}
+.login-right p {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 .login-header {
   display: flex;
