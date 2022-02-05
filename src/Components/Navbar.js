@@ -36,6 +36,9 @@ const Navbar = () => {
             <Link to="/Login">
               <li>SignUp</li>
             </Link>
+            {/* <Link to="/about">
+              <li>About</li>
+            </Link> */}
           </ul>
         </div>
         {/* TODO 3rd Social media Links */}

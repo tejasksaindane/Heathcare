@@ -1,9 +1,19 @@
 import React from "react";
 import "../Styles/Firstpage.css";
 import { FcAbout, FcPhone, FcVideoCall } from "react-icons/fc";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Link } from "react-router-dom";
+
 const FirstPage = () => {
+  const notify = () =>
+    toast.info({
+      name: "Sunil.V.Chaudhari",
+      contact: "9156403419",
+    });
   return (
     <div className="Firstpage">
+      <ToastContainer />
       <div className="firstpage-header">
         <center>
           <h1>Select The Mode Of Session</h1>
@@ -23,7 +33,9 @@ const FirstPage = () => {
               available to you anytime, anywhere.
             </p>
             <center>
-              <button>Click</button>
+              <Link to="/login">
+                <button>Click</button>
+              </Link>
             </center>
           </div>
         </div>
@@ -36,11 +48,11 @@ const FirstPage = () => {
           </div>
           <div className="fpone-bottom">
             <p>
-              Chat anonymously with an expert of your choice. This service is
+              Talk anonymously with an expert of your choice. This service is
               available to you anytime, anywhere.
             </p>
             <center>
-              <button>Click</button>
+              <button onClick={notify}>Click</button>
             </center>
           </div>
         </div>
@@ -53,11 +65,13 @@ const FirstPage = () => {
           </div>
           <div className="fpone-bottom">
             <p>
-              Chat anonymously with an expert of your choice. This service is
-              available to you anytime, anywhere.
+              Video Chat anonymously with an expert of your choice. This service
+              is available to you anytime, anywhere.
             </p>
             <center>
-              <button>Click</button>
+              <Link to="/login">
+                <button>Click</button>
+              </Link>
             </center>
           </div>
         </div>
@@ -67,3 +81,4 @@ const FirstPage = () => {
 };
 
 export default FirstPage;
+// "proxy": "http://localhost:8000",

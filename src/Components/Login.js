@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Login.css";
 import doc from "../assets/Doctortwo.png";
-import { signup } from "../auth/index";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -49,30 +48,6 @@ const Login = () => {
       navigate("/signin");
     }
   };
-  // const handleChange = (event) => {
-  //   setValues(values);
-  // };
-
-  // const onSubmit = (event) => {
-  //   event.preventDefault();
-  //   setUser({ ...user });
-  //   signup({ name, email, phone, password })
-  //     .then((data) => {
-  //       if (data.error) {
-  //         setValues({ ...values });
-  //       } else {
-  //         setValues({
-  //           ...values,
-  //           name: "",
-  //           email: "",
-  //           phone: "",
-  //           password: "",
-  //         });
-  //       }
-  //     })
-  //     .catch(console.log("Error in signup"));
-  //   alert("hello");
-  // };
 
   return (
     <div className="login">

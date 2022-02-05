@@ -25,7 +25,7 @@ const Signin = () => {
       window.alert("invalid credentials");
     } else {
       window.alert("Login Successful");
-      navigate("/");
+      navigate("/dashboard");
     }
   };
 
