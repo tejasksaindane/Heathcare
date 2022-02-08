@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../Styles/Login.css";
 import doc from "../assets/Doctortwo.png";
 import { Link, useNavigate } from "react-router-dom";
+import { API } from "../backend";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -26,9 +27,12 @@ const Login = () => {
   const PostData = async (e) => {
     e.preventDefault();
     const { name, email, phone, password } = user;
-    const res = await fetch("/register", {
+    // const res = await fetch("/register", {
+    console.log(user);
+    const res = await fetch(`http://localhost:8000/registers`, {
       method: "POST",
       headers: {
+        Accept: "application/json",
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
@@ -38,7 +42,7 @@ const Login = () => {
         password,
       }),
     });
-    const data = await res.json();
+    const data = res.json();
     if (data.status === 422 || !data) {
       window.alert("Invalid registration");
       console.log("Invalid registration");

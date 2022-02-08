@@ -10,7 +10,7 @@ const Signin = () => {
 
   const loginUser = async (e) => {
     e.preventDefault();
-    const res = await fetch("/signin", {
+    const res = await fetch("signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -20,7 +20,7 @@ const Signin = () => {
         password,
       }),
     });
-    const data = res.json();
+    const data = await res.json();
     if (res.status === 400 || !data) {
       window.alert("invalid credentials");
     } else {
