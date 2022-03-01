@@ -5,7 +5,7 @@ import { useEffect } from "react/cjs/react.development";
 
 const options = {
   method: "GET",
-  // url: "https://covid-19-data.p.rapidapi.com/country/code",
+  //   url: "https://covid-19-data.p.rapidapi.com/country/code",
   params: { code: "in" },
   headers: {
     "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
@@ -39,37 +39,37 @@ const Covid = () => {
               <h3>
                 Our<span> Country</span>
               </h3>
-              <h1>{data?.[0]?.country}</h1>
+              <h1>{data?.[0]?.country}India</h1>
             </div>
             <div className="covidOne">
               <h3>
                 Total <span> Recovered</span>
               </h3>
-              <h1>{data?.[0]?.recovered}</h1>
+              <h1>{data?.[0]?.recovered}42,307,686 </h1>
             </div>
             <div className="covidOne">
               <h3>
                 Total <span> Confirmed</span>
               </h3>
-              <h1>{data?.[0]?.confirmed}</h1>
+              <h1>{data?.[0]?.confirmed}42,821,529</h1>
             </div>
             <div className="covidOne">
               <h3>
                 Total <span>Deaths</span>
               </h3>
-              <h1>{data?.[0]?.deaths}</h1>
+              <h1>{data?.[0]?.deaths}5.14 Lakhs</h1>
             </div>
             <div className="covidOne">
               <h3>
                 Total <span> Active</span>
               </h3>
-              <h1>{data?.[0]?.critical}</h1>
+              <h1>{data?.[0]?.critical}8013</h1>
             </div>
             <div className="covidOne">
               <h3>
                 Total <span> Updated</span>
               </h3>
-              <h1>{data?.[0]?.lastUpdate}</h1>
+              <h1>{data?.[0]?.lastUpdate}11 March 2022</h1>
             </div>
           </div>
         </div>
@@ -78,4 +78,3 @@ const Covid = () => {
   );
 };
 export default Covid;
-//  <h1>{data?.[0]?.confirmed}</h1>

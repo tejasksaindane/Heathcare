@@ -50,35 +50,35 @@ const Nutrition = () => {
             <h2>{food?.results[0]?.title}</h2>
             <p>
               <label>
-                {food?.results[0]?.nutrition?.nutrients[0]?.title}:{" "}
+                Protein{food?.results[0]?.nutrition?.nutrients[0]?.title}:{" "}
               </label>
               {food?.results[0]?.nutrition?.nutrients[0]?.amount}{" "}
               <label>{food?.results[0]?.nutrition?.nutrients[0]?.unit}</label>
             </p>
             <p>
               <label>
-                {food?.results[0]?.nutrition?.nutrients[1]?.title}:{" "}
+                Fat{food?.results[0]?.nutrition?.nutrients[1]?.title}:{" "}
               </label>
               {food?.results[0]?.nutrition?.nutrients[1]?.amount}{" "}
               <label>{food?.results[0]?.nutrition?.nutrients[1]?.unit}</label>
             </p>
             <p>
               <label>
-                {food?.results[0]?.nutrition?.nutrients[2]?.title}:{" "}
+                Calories{food?.results[0]?.nutrition?.nutrients[2]?.title}:{" "}
               </label>
               {food?.results[0]?.nutrition?.nutrients[2]?.amount}{" "}
               <label>{food?.results[0]?.nutrition?.nutrients[2]?.unit}</label>
             </p>
             <p>
               <label>
-                {food?.results[0]?.nutrition?.nutrients[3]?.title}:{" "}
+                Calcium{food?.results[0]?.nutrition?.nutrients[3]?.title}:{" "}
               </label>
               {food?.results[0]?.nutrition?.nutrients[3]?.amount}{" "}
               <label>{food?.results[0]?.nutrition?.nutrients[3]?.unit}</label>
             </p>
             <p>
               <label>
-                {food?.results[0]?.nutrition?.nutrients[4]?.title}:{" "}
+                Calcium{food?.results[0]?.nutrition?.nutrients[4]?.title}:{" "}
               </label>
               {food?.results[0]?.nutrition?.nutrients[4]?.amount}{" "}
               <label>{food?.results[0]?.nutrition?.nutrients[4]?.unit}</label>

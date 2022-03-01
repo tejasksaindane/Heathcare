@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../Styles/Dashboard.css";
 import Calendar from "../Components/Calendar";
 import Charts from "../Components/Chart";
@@ -7,10 +7,36 @@ import { FcVideoCall, FcPhone, FcSettings, FcAbout } from "react-icons/fc";
 import PieChart from "../Components/PieChart";
 import Table from "../Components/Ptable";
 import Modal from "../Components/Modal";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const [openModal, setOpenModal] = useState(false);
+  const navigate = useNavigate();
+  // const callAboutPage = async () => {
+  //   try {
+  //     const res = await fetch(`http://localhost:8000/datacome`, {
+  //       method: "GET",
+  //       headers: {
+  //         Accept: "application/json",
+  //         "Content-Type": "application/json",
+  //       },
+  //       credentials: "include",
+  //     });
+  //     const data = await res.json();
+  //     console.log(data);
+  //     if (!res.status === 200) {
+  //       const error = new Error(res.error);
+  //       throw error;
+  //     }
+  //   } catch (err) {
+  //     console.log(err);
+  //     navigate("./login");
+  //   }
+  // };
+  // useEffect(() => {
+  //   callAboutPage();
+  // }, []);
+  // ------------------------------------------------------------------------------------------------
   return (
     <>
       <div className="dashboard">
@@ -90,7 +116,7 @@ const Dashboard = () => {
           {/* -------------------------------Header------------------- */}
           <div className="maindash-header">
             <h1>Heathcare Dashboard</h1>
-            <h3>Hello , Mr John Doe</h3>
+            <h3>Hello ,Tejas saindane</h3>
           </div>
           <br />
           {/* ------------------------------Header ends here------------- */}

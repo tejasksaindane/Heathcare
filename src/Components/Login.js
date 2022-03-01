@@ -80,7 +80,7 @@ const Login = () => {
           />
           <label htmlFor="">Contact No</label>
           <input
-            type="number"
+            type="tel"
             name="phone"
             values={user.phone}
             onChange={handleChange}

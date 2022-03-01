@@ -6,11 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 
 const FirstPage = () => {
-  const notify = () =>
-    toast.info({
-      name: "Sunil.V.Chaudhari",
-      contact: "9156403419",
-    });
+  const notify = () => toast.info("915561000");
   return (
     <div className="Firstpage">
       <ToastContainer />
@@ -69,9 +65,10 @@ const FirstPage = () => {
               is available to you anytime, anywhere.
             </p>
             <center>
-              <Link to="/login">
+              {/* <Link to="/login"> */}
+              <a href="https://infallible-gates-5e8402.netlify.app/">
                 <button>Click</button>
-              </Link>
+              </a>
             </center>
           </div>
         </div>
