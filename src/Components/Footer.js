@@ -2,7 +2,6 @@ import React from "react";
 import "../Styles/Footer.css";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/linkedin.png";
-// import facebook from "../assets/facebook.png";
 
 const Footer = () => {
   return (
@@ -28,7 +27,6 @@ const Footer = () => {
           <div className="footer-media">
             <img src={twitter} alt="" width="50vw" />
             <img src={linkedin} alt="" width="50vw" />
-            {/* <img src={facebook} alt="" /> */}
           </div>
           <div className="footer-linkers">
             <h3>

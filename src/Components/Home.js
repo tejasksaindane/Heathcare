@@ -7,6 +7,7 @@ import Doctor from "../assets/Doctortwo.png";
 import Navbar from "../Components/Navbar";
 import Covid from "../Components/Covid";
 import Footer from "../Components/Footer";
+import Exercise from "../Components/Exercise";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       </div>
       <FirstPage />
       <Nutrition />
+      <Exercise />
       <Slider />
       <Covid />
       <Footer />

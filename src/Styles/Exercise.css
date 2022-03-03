@@ -1,0 +1,49 @@
+.exercise {
+  display: flex;
+  /* background: #f8f8f8; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 11%;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: 50px;
+  border: 2px solid lightgray;
+  z-index: 1;
+}
+.card i {
+  position: absolute;
+  width: 300px;
+  left: -15px;
+  top: 40px;
+  height: 50px;
+  background: #7168f4;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+}
+.card i::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background: darkgray;
+  top: 50px;
+  z-index: 2;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.card i::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  width: 15px;
+  height: 15px;
+  background: #7168f4;
+}
