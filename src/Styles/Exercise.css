@@ -15,8 +15,29 @@
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   margin: 50px;
-  border: 2px solid lightgray;
+  border: 0.1px solid lightgray;
   z-index: 1;
+}
+.card h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #737373;
+}
+.card h3 {
+  text-align: center;
+  color: #7a72f5;
+}
+.card button {
+  background-color: #7168f4;
+  margin-left: 33%;
+  margin-top: 5%;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+}
+.card a {
+  color: white;
+  font-weight: bold;
 }
 .card i {
   position: absolute;
@@ -46,4 +67,8 @@
   width: 15px;
   height: 15px;
   background: #7168f4;
+}
+.dumbbell {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
