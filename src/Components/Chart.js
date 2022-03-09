@@ -12,29 +12,29 @@ import {
 
 const pdata = [
   {
-    name: "Python",
-    student: 13,
-    fees: 10,
+    Blood: "A+",
+    Wbc: 13,
+    Rbc: 10,
   },
   {
-    name: "Js",
-    student: 15,
-    fees: 12,
+    Blood: "B+",
+    Wbc: 15,
+    Rbc: 12,
   },
   {
-    name: "React",
-    student: 10,
-    fees: 5,
+    Blood: "A-",
+    Wbc: 10,
+    Rbc: 5,
   },
   {
-    name: "C++",
-    student: 17,
-    fees: 12,
+    Blood: "B-",
+    Wbc: 17,
+    Rbc: 12,
   },
   {
-    name: "Java",
-    student: 11,
-    fees: 6,
+    Blood: "O+",
+    Wbc: 11,
+    Rbc: 6,
   },
 ];
 const Charts = () => {
@@ -63,11 +63,11 @@ const Charts = () => {
           <Legend />
           <Line
             type="monotone"
-            dataKey="student"
+            dataKey="Wbc"
             stroke="red"
             activeDot={{ r: 12 }}
           />
-          <Line dataKey="fees" stroke="green" />
+          <Line dataKey="Rbc" stroke="green" />
         </LineChart>
       </ResponsiveContainer>
     </div>

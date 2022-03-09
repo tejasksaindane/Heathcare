@@ -3,46 +3,31 @@ import { ResponsiveContainer, PieChart, Pie, Legend, Tooltip } from "recharts";
 
 const pdata = [
   {
-    name: "Python",
-    student: 13,
+    name: "HealthReport",
+    patient: 13,
     fees: 10,
   },
   {
-    name: "Js",
-    student: 15,
+    name: "Sugar level",
+    patient: 15,
     fees: 12,
   },
   {
-    name: "React",
-    student: 10,
+    name: "BMI",
+    patient: 10,
     fees: 5,
-  },
-  {
-    name: "C++",
-    student: 17,
-    fees: 12,
-  },
-  {
-    name: "Java",
-    student: 11,
-    fees: 6,
   },
 ];
 const sdata = [
   {
-    name: "cars",
-    student: 13,
+    name: "Mental Status Examination",
+    patient: 13,
     fees: 10,
   },
   {
-    name: "trains",
-    student: 15,
+    name: "Previos consultations",
+    patient: 15,
     fees: 12,
-  },
-  {
-    name: "Airplanes",
-    student: 10,
-    fees: 5,
   },
 ];
 const PieCharts = () => {
@@ -57,7 +42,7 @@ const PieCharts = () => {
         >
           <Pie
             data={pdata}
-            dataKey="student"
+            dataKey="patient"
             nameKey="name"
             cx="50%"
             cy="20%"
@@ -66,7 +51,7 @@ const PieCharts = () => {
           />
           <Pie
             data={sdata}
-            dataKey="student"
+            dataKey="patient"
             nameKey="name"
             cx="50%"
             cy="20%"
@@ -86,7 +71,7 @@ const PieCharts = () => {
           textAlign: "center",
         }}
       >
-        User's Profile
+        Patient Information Leaflet
       </h4>
     </div>
   );
