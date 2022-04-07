@@ -11,31 +11,17 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const [openModal, setOpenModal] = useState(false);
+  // const [items, setItems] = useState(getLocalItems());
   const navigate = useNavigate();
-  // const callAboutPage = async () => {
-  //   try {
-  //     const res = await fetch(`http://localhost:8000/datacome`, {
-  //       method: "GET",
-  //       headers: {
-  //         Accept: "application/json",
-  //         "Content-Type": "application/json",
-  //       },
-  //       credentials: "include",
-  //     });
-  //     const data = await res.json();
-  //     console.log(data);
-  //     if (!res.status === 200) {
-  //       const error = new Error(res.error);
-  //       throw error;
-  //     }
-  //   } catch (err) {
-  //     console.log(err);
-  //     navigate("./login");
+  // const getLocalItems = () => {
+  //   let list = localStorage.getItem("lists");
+  //   console.log(list);
+  //   if (list) {
+  //     return JSON.parse(localStorage.getItem("lists"));
+  //   } else {
+  //     return [];
   //   }
   // };
-  // useEffect(() => {
-  //   callAboutPage();
-  // }, []);
   // ------------------------------------------------------------------------------------------------
   return (
     <>
@@ -90,10 +76,12 @@ const Dashboard = () => {
               </li>
 
               <li>
-                <span>
-                  <FcVideoCall />
-                </span>
-                Video call Session
+                <a href="https://webrtc-video-room.herokuapp.com/">
+                  <span>
+                    <FcVideoCall />
+                  </span>
+                  Video call Session
+                </a>
               </li>
 
               <li>
@@ -116,7 +104,7 @@ const Dashboard = () => {
           {/* -------------------------------Header------------------- */}
           <div className="maindash-header">
             <h1>Heathcare Dashboard</h1>
-            <h3>Hello ,Tejas saindane</h3>
+            {/* <h3>Hello ,{localStorage.getItem("Name")}</h3> */}
           </div>
           <br />
           {/* ------------------------------Header ends here------------- */}

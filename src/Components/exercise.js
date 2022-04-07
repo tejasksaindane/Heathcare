@@ -14,7 +14,7 @@ const Exercise = () => {
           <img src={BMI} alt="" width="130vw" />
         </center>
         <button>
-          <a href="https://wonderful-galileo-907f1d.netlify.app">Button</a>
+          <a href="https://wonderful-galileo-907f1d.netlify.app">Click</a>
         </button>
       </div>
       <div className="card">
@@ -25,7 +25,7 @@ const Exercise = () => {
           <img className="dumbbell" src={Dumbbell} alt="" width="130vw" />
         </center>
         <button>
-          <a href="https://quirky-tesla-56b4d3.netlify.app">Button</a>
+          <a href="https://quirky-tesla-56b4d3.netlify.app">Click</a>
         </button>
       </div>
     </div>

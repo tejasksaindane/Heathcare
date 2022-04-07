@@ -32,19 +32,19 @@ const Ptable = () => {
           </tr>
         </thead>
         <tbody>
-          {items.map((item) => (
-            <tr>
-              {/* <td>{contact.id}</td> */}
-              {/* <td>{localStorage.getItem("Name")}</td> */}
-              <td>{item.Name}</td>
-              <td>{localStorage.getItem("City")}</td>
-              <td>{localStorage.getItem("Phone")}</td>
-              <td>{localStorage.getItem("Age")}</td>
-              <td>{localStorage.getItem("Gender")}</td>
-              {/* <td>{contact.fees}</td>
+          {/* {items.map((item) => ( */}
+          <tr>
+            {/* <td>{contact.id}</td> */}
+            <td>{localStorage.getItem("Name")}</td>
+            {/* <td>{item.Name}</td> */}
+            <td>{localStorage.getItem("City")}</td>
+            <td>{localStorage.getItem("Phone")}</td>
+            <td>{localStorage.getItem("Age")}</td>
+            <td>{localStorage.getItem("Gender")}</td>
+            {/* <td>{contact.fees}</td>
               // <td>{contact.paid}</td> */}
-            </tr>
-          ))}
+          </tr>
+          {/* ))} */}
         </tbody>
       </table>
     </div>

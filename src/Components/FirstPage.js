@@ -66,7 +66,7 @@ const FirstPage = () => {
             </p>
             <center>
               {/* <Link to="/login"> */}
-              <a href="https://infallible-gates-5e8402.netlify.app/">
+              <a href="https://webrtc-video-room.herokuapp.com/">
                 <button>Click</button>
               </a>
             </center>
