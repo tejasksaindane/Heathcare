@@ -85,10 +85,12 @@ const Dashboard = () => {
               </li>
 
               <li>
-                <span>
-                  <FaCcStripe />
-                </span>
-                Payment
+                <a href="https://incomparable-tarsier-6cadba.netlify.app/">
+                  <span>
+                    <FaCcStripe />
+                  </span>
+                  Payment
+                </a>
               </li>
               <li>
                 <span>

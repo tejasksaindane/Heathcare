@@ -24,13 +24,13 @@ const Navbar = () => {
           // className
         >
           <ul>
-            <Link to="#">
+            {/* <Link to="#">
               <li>
                 <a href="https://wonderful-galileo-907f1d.netlify.app">
                   Self Test
                 </a>
               </li>
-            </Link>
+            </Link> */}
             <Link to="/Signin">
               <li>Appointment</li>
             </Link>
