@@ -30,7 +30,9 @@ const FirstPage = () => {
             </p>
             <center>
               <Link to="/login">
-                <button>Click</button>
+                <a href="https://wondrous-blancmange-027998.netlify.app/">
+                  <button>Click</button>
+                </a>
               </Link>
             </center>
           </div>

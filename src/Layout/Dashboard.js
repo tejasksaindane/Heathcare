@@ -62,10 +62,12 @@ const Dashboard = () => {
               </li>
 
               <li>
-                <span>
-                  <FcAbout />
-                </span>
-                Chat wih Doctor
+                <a href="https://wondrous-blancmange-027998.netlify.app/">
+                  <span>
+                    <FcAbout />
+                  </span>
+                  Chat wih Doctor
+                </a>
               </li>
 
               <li>

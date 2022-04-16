@@ -29,19 +29,23 @@ const Login = () => {
     const { name, email, phone, password } = user;
     // const res = await fetch("/register", {
     console.log(user);
-    const res = await fetch(`http://localhost:8000/registers`, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        phone,
-        password,
-      }),
-    });
+    // const res = await fetch(`http://localhost:8000/registers`, {
+    const res = await fetch(
+      ` https://healthproj-backend.herokuapp.com/8000/registers`,
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          password,
+        }),
+      }
+    );
     const data = res.json();
     if (data.status === 422 || !data) {
       window.alert("Invalid registration");

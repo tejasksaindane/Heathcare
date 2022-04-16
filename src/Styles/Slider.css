@@ -30,6 +30,7 @@
   animation: scroll 80s linear infinite;
   display: flex;
   width: calc(340px * 18);
+  height: 400px !important;
 }
 .slider .slide-track:hover {
   animation-play-state: paused;
